@@ -63,6 +63,16 @@ int main()
     // Print the results.
     cout << sum_of_even_places << " " << sum_of_odd_places << endl;
 
+    // Read a string.
+    // The string is read until we meet a space, or a newline,
+    // or the end of the input (whatever comes first).
+    // my_str will not include this space/newline.
+    string my_str;
+    cin >> my_str;
+
+    // Print the string size, and the first character.
+    cout << my_str.size() << endl << my_str[0] << endl;
+
     // This part calculates the integer value of 100 divided by 30
     // (which is 3), and the remainder (which is 10).
     // This is just an example! Normally you should use "100/30" and "100%30".

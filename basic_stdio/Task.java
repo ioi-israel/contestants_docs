@@ -93,6 +93,18 @@ public class Task
         writer.write(String.valueOf(sum_of_odd_places));
         writer.newLine();
 
+        // Read a string.
+        // The string is read until the end of the line.
+        // my_str will not include the newline character.
+        String my_str;
+        my_str = reader.readLine();
+        
+        // Print the string size, and the first character.
+        writer.write(String.valueOf(my_str.length()));
+        writer.newLine();
+        writer.write(my_str.charAt(0));
+        writer.newLine();
+
         // This part calculates the integer value of 100 divided by 30
         // (which is 3), and the remainder (which is 10).
         // This is just an example! Normally you should use "100/30" and "100%30".

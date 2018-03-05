@@ -73,6 +73,16 @@ namespace MyNamespace
                 }
             }
 
+            // Read a string.
+            // The string is read until the end of the line.
+            // my_str will not include the newline character.
+            String my_str;
+            my_str = Console.ReadLine();
+
+            // Print the string size, and the first character.
+            Console.WriteLine(my_str.Length);
+            Console.WriteLine(my_str[0]);
+
             // Print the results in one line.
             Console.Write(sum_of_even_places);
             Console.Write(" ");
