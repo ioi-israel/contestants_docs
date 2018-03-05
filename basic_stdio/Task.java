@@ -22,6 +22,8 @@ public class Task
         // Use BufferedReader and BufferedWriter for input and output.
         // Do not use Scanner and System.out (they can be too slow).
         // Do not forget to use writer.flush() eventually!
+        // writer.write() expects a string, NOT a number. To print numbers,
+        // convert them to strings with String.valueOf(). See examples below.
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(System.out));
 
